@@ -1,0 +1,108 @@
+.exchange {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.amount {
+  font-weight: bold;
+  color: #8a2b06;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.amount input:focus {
+  outline: none;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px 0;
+  gap: 10px;
+}
+.options .label1 {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+.options .label2 {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+.options .select {
+  color: #8a2b06;
+  font-weight: bold;
+}
+.options .currency {
+  width: 100px;
+  text-align: right;
+  background-color: #8a2b06;
+  color: white;
+}
+
+.options .currency:focus {
+  outline: none;
+}
+.options .replace {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: #8a2b06;
+}
+.buttons {
+  margin: 15px auto;
+  width: fit-content;
+}
+.buttons .convert {
+  background-color: #4d1601;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-color: #4d1601;
+}
+.buttons .convert:hover {
+  background-color: white;
+  color: #8a2b06;
+}
+.exchange .details {
+  background-color: white;
+  color: #8a2b06;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #8a2b06;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.exchange .details a {
+  color: #8a2b06;
+  display: block;
+  margin: auto;
+}
+.exchange .details:hover {
+  background-color: #4d1601;
+  color: white;
+}
+.exchange .details:hover a {
+  color: white;
+}
+.exchange .result {
+  border: 1px solid #8a2b06;
+  padding: 10px 20px;
+  margin: 15px auto;
+}
+.exchange .conversion {
+  border: 1px solid #8a2b06;
+  padding: 10px 20px;
+  margin: 15px auto;
+  text-align: center;
+}

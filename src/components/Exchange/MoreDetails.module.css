@@ -1,0 +1,48 @@
+.fullname {
+  border: 1px solid #8a2b06;
+  padding: 10px 20px;
+  margin: 25px auto;
+  width: 50%;
+  color: #4d1601;
+}
+.more {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.more .back {
+  background-color: white;
+  color: #8a2b06;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #8a2b06;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.more .back a {
+  color: #8a2b06;
+  display: block;
+  margin: auto;
+}
+.more .back:hover {
+  background-color: #4d1601;
+  color: white;
+}
+.more .back:hover a {
+  color: white;
+}
+.chart {
+  border: 1px solid #8a2b06;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.conversion {
+  border: 1px solid #8a2b06;
+  padding: 10px 20px;
+  margin: 15px auto;
+}

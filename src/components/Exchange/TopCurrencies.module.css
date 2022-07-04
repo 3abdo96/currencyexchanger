@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+.card {
+  color: white;
+  min-width: 250px;
+  border: 1px solid #8a2b06;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  border-radius: 5px;
+  background-color: #8a2b06;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px 18px 5px #4d1601;
+}
+.card .head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.card .result {
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
